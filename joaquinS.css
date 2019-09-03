@@ -1,0 +1,41 @@
+body {
+	background-color: #ffbdf3:;
+}
+header {
+	background-color: #80d0ff; 
+	background-image: url("WAVE.png");
+	background-position: right 5px top 5px;
+	background-repeat: no-repeat;
+	height: 180px;
+	padding:0px;
+	padding-left: 20px;
+}
+h1{
+	color: black;
+	font-size: 300%;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+}
+#content {
+	background-color: #ffbdf3; 
+	min-height: 500px;
+}
+header, footer, #content {
+	border-style:solid;
+	border-width:2px;
+	border-color: #80d0ff;
+}
+.floatImg{
+	float: left;
+	margin: 0px 10px;
+}
+ul{
+	list-style-position: inside;
+}
+ 
+footer {
+	background-color: #80d0ff;
+	text-align: center;
+}
